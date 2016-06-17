@@ -1,11 +1,11 @@
 <?php  
 /* 
 Plugin Name: WP Est by Rav
-Version: 0.2 
-Description: Wyświetla oferty nieruchomości z użyciem szablonów Twig. 
+Version: 1.0 
+Description: Szablony TWIG i shortcode z poziomu WP.
 Author: R. Wojciechowicz
-Author URI: http://www.appsolution.pl/ 
-Plugin URI: http://www.appsolution.pl/ 
+Author URI: http://www.thecoder.eu
+Plugin URI: http://www.thecoder.eu
 */  
 
 /* Version check */  
