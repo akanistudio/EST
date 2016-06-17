@@ -36,9 +36,10 @@ if( !function_exists('register_options_page') ){
 	include_once('plugins/acf-options-page/acf-options-page.php');
 }*/
 //Dodanie funkcjonalności ACF
-//include_once('advanced-custom-fields/acf.php');
+if(!class_exists('acf'))
+	include_once('advanced-custom-fields/acf.php');
 //Panel ACF niewidoczny
-//define( 'ACF_LITE', true );
+define( 'ACF_LITE', true );
 //Dodanie własnych pól do ACF
 require_once('acf_types.php');
 //dodanie własnych custom postów
